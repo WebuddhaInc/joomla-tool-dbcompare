@@ -14,26 +14,26 @@ between two databases.
  
 ## Usage
 
-	- Call as a CLI
-	- Request via WEB (must be located within folder that employs HTTP_AUTH)
+  - Call as a CLI
+  - Request via WEB (must be located within folder that employs HTTP_AUTH)
 
 ## Example Report
 
-  DB1 Name:      user_dbname
-  DB1 Tables:    120
+    DB1 Name:      user_dbname
+    DB1 Tables:    120
 
-  DB2 Name:      user_dbname_compare
-  DB2 Tables:    120
+    DB2 Name:      user_dbname_compare
+    DB2 Tables:    120
 
-  table_name                                        db1_count      db2_count      diff      
+    table_name                                        db1_count      db2_count      diff      
 
-  session                                           12             7              5         
-  user_usergroup_map                                40411          40407          4         
-  users                                             40396          40393          3         
+    session                                           12             7              5         
+    user_usergroup_map                                40411          40407          4         
+    users                                             40396          40393          3         
 
-  table_errors                                      
+    table_errors                                      
 
-  test not present in DB1
-  test_renamed not present in DB2
+    test not present in DB1
+    test_renamed not present in DB2
 
-  complete
+    complete
